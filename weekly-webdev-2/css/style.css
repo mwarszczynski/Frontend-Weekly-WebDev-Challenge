@@ -1,0 +1,38 @@
+/* basic styles and typography */
+@import url('global.css');
+
+/* first page - home section */
+@import url('navbar.css');
+@import url('home.css');
+@import url('head-banner.css');
+@import url('scroll-icon.css');
+@import url('hamburger.css');
+
+/* second page - About Us section */
+@import url('about.css');
+
+/* 3rd page - Our Services section */
+@import url('services.css');
+
+/* 4th page - Gallery section */
+@import url('gallery.css');
+
+/* 5th page - Subscribe section */
+@import url('subscribe.css');
+
+/* 6th page - Blog section */
+@import url('blog.css');
+
+/* 7th page - Contact */
+@import url('contact.css');
+
+/* 8th page - Footer */
+@import url('footer.css');
+
+
+/* Other styles */
+@import url('buttons.css');
+
+
+/* media queries */
+@import url('mediaQueries.css');

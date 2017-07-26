@@ -1,0 +1,88 @@
+/* services section */
+.services {
+	background: #70C0FF;
+	color: #FFFFFF;
+}
+
+	.services .tomatos {
+		position: relative;
+		text-align: center;
+	}
+
+	.services h2 {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		text-align: center;
+		width: 90%;
+	}
+
+	.services-list {
+		margin-top: 12%;
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+	}
+
+	.services-li {
+		-webkit-box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.6);
+		-moz-box-shadow:    0px 2px 10px 0px rgba(50, 50, 50, 0.6);
+		box-shadow:         0px 2px 10px 0px rgba(50, 50, 50, 0.6);
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		position: relative;
+		background: #ffffff;
+		margin-bottom: 20px;
+		padding: 15px 0 15px 15px;
+	}
+
+	.services-li::before{
+		position: absolute;
+		top: 0%;
+		right: 24%;
+		content: '';
+		width: 1px;
+		height: 100%;
+		background-color: #9D9D9D;
+	}
+
+	.services-li p {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		width: 60%;
+		color: #272727;
+		font-weight: bold;
+		font-size: 17px;
+		letter-spacing: 0;
+	}
+
+		.services-list a:hover, .services-list a:hover p, .services-list a:focus, .services-list a:focus p {
+			text-decoration: none;
+			color: #000000;
+		}
+
+.services-li:hover, .services-li:focus {
+	-webkit-box-shadow: 0px 4px 10px 0px rgba(54, 40, 50, 1);
+	-moz-box-shadow:    0px 4px 10px 0px rgba(54, 40, 50, 1);
+	box-shadow:         0px 4px 10px 0px rgba(54, 40, 50, 1);
+}
+
+	.services-li img {
+		margin-left: 20px;
+		width: 15%;
+	}
+
+	.panel {
+		background-color: transparent;
+	}
+
+		.panel-body {
+			color: #ffffff;
+			margin-top: -20px;
+		}
+		
+			.panel-default, .panel {
+				border: none;
+			}

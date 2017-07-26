@@ -1,0 +1,65 @@
+/* contact section */
+.contact {
+	background: url(../img/wallpaper03.png) no-repeat;
+	background-position: top center;
+	background-attachment: scroll;
+	background-size: cover;
+	position: relative;
+	height: 880px;
+}
+
+	.contact ul {
+		list-style-type: none;
+		font-size: 18px;
+	}
+
+		.contact ul>li {
+			margin-bottom: 13px;
+		}
+
+			.contact ul > li > b {
+				text-transform: uppercase;
+				letter-spacing: 1px;
+			}
+
+	.contact h2 {
+		margin-top: 0;
+	}
+
+	.contact p {
+		width: 33%;
+		margin-bottom: 40px;
+	}
+
+	.contact input {
+		height: 50px;
+	}
+
+		.contact input:focus, .contact textarea:focus {
+			border: none;
+			background-color: rgb(0, 196, 195);
+			font-weight: bolder;
+		}
+
+		.contact input:focus::placeholder, .contact textarea:focus::placeholder {
+			font-weight: bolder;
+		}
+
+		.contact input, .contact textarea {
+			background-color: rgba(0, 196, 195, 0.5);
+			color: #ffffff;
+			border-radius: 0;
+			border: none;
+		}
+
+		.contact input::placeholder, .contact textarea::placeholder {
+			color: #ffffff;
+		}
+
+.contact .btn-default {
+	background-color: rgb(0, 196, 195);
+}
+
+	.contact .btn-default:hover, .contact .btn-default:focus {
+		background-color: rgb(4, 180, 179);
+	}

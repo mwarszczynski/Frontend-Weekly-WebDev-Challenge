@@ -1,0 +1,14 @@
+/* footer section */
+footer {
+	padding: 25px 0;
+	background-color: #262626;
+	color: #B8B8B8;
+}
+
+footer img {
+	margin-bottom: -30px;
+}
+
+footer p {
+	margin: 0;
+}

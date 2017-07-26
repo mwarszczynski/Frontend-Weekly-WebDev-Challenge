@@ -1,0 +1,9 @@
+/* home */
+.home {
+	height: 1000px;
+	background: url(../img/wallpaper01.png) no-repeat;
+	background-position: top center;
+	background-attachment: scroll;
+	background-size: cover;
+	position: relative;
+}

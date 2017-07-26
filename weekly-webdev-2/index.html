@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="utf-8">
+	  <meta http-equiv="x-ua-compatible" content="ie=edge">
+	  <title>Weekly WebDev Challenge #2</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- =============== bootstrap =============== -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  <!-- =============== own styles css =============== -->
+	  <link rel="stylesheet" href="css/style.css">
+		<!-- =============== fonts =============== -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+</head>
+<body>
+	<section class="home">
+		<div class="container">
+			<!--	=============== Navbar =============== -->
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand scrollable" href="#home">
+							<img alt="Main logo Cahee" src="img/logo.png">
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="#active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#gallery">Gallery</a></li>
+							<li><a href="#blog">Blog</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- =============== Header banner =============== -->
+			<div id="home" class="col-md-4 col-sm-6 header-content" >
+				<h1>Fresh Life</h1>
+				<p>
+					Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+				</p>
+				<button type="button" class="btn btn-default btn-lg scrollable">get free now</button>
+			</div>
+			<a href="#about">
+				<span id="scroll"></span>
+			</a>
+		</div>
+	</section>
+	<!--	=============== About section =============== -->
+	<section id="about" class="about">
+		<div class="container-fluid">
+			<div class="col-md-6 col-sm-12">
+				<img src="img/rasberry.png" alt="raspberry photo" class="img-responsive center-block">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h2>About Us</h2>
+				<p>
+					Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+				</p>
+				<p>
+					Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!--	=============== Services section =============== -->
+	<section id="services" class="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 visible-sm visible-xs">
+					<img src="img/tomatoe.png" alt="tomatoe vegitable photo" class="img-responsive center-block tomatos">
+					<h2>Our Services</h2>
+				</div>
+				<div class="col-md-6">
+					<div class="services-list center-block panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<a class="services-li" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+								<p>
+									Online Shopping
+								</p>
+								<img src="img/trolley.png" alt="icon trolley small">
+							</a>
+								<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+									<div class="panel-body">
+										<p>
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+											non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+											put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<a class="services-li" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
+									<p>Quality Product </p>
+									<img src="img/hand.png" alt="icon hand small">
+								</a>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									<div class="panel-body">
+										<p>
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+											non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+											put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<a class="services-li" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
+									<p>Domestic & International Delivery</p>
+									<img src="img/world.png" alt="icon world small">
+								</a>
+								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									<div class="panel-body">
+										<p>
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+											3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+											Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<a class="services-li" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
+									<p>Well Organized</p>
+									<img src="img/carrot.png" alt="icon carrotsmall">
+								</a>
+								<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+									<div class="panel-body">
+										<p>
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+											officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+											wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+										</p>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 hidden-sm hidden-xs">
+					<img src="img/tomatoe.png" alt="tomatos" class="img-responsive center-block tomatos">
+					<h2>Our Services</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	=============== Gallery section =============== -->
+	<section id="gallery" class="gallery">
+		<div class="container text-center">
+			<h2>Gallery</h2>
+			<p>
+				Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+			<div class="list-group gallery">
+				<div class="row">
+					<div class="col-md-8">
+						<a class="" href="#">
+							<img src="img/brzoskwinia.jpg" alt="brzoskwinia" class="img-responsive">
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a class="" href="#">
+							<img src="img/jagoda.jpg" alt="jagoda" class="img-responsive">
+						</a>
+						<a class="" href="#">
+							<img src="img/malina.jpg" alt="malina" class="img-responsive">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<a class="" href="#">
+							<img src="img/malinaBIG.jpg" alt="malina" class="img-responsive">
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a class="" href="#">
+							<img src="img/pomelo.png" alt="pomelo" class="img-responsive">
+						</a>
+					</div>
+				</div>
+				<div class="row" id="show-hide1">
+					<div class="col-md-6">
+						<a class="" href="#">
+							<img src="img/pomelo.png" alt="pomelo" class="img-responsive">
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a class="" href="#">
+							<img src="img/pomelo.png" alt="pomelo" class="img-responsive">
+						</a>
+					</div>
+				</div>
+				<button type="button" class="btn btn-default btn-lg" id="btn-show-hide1">view more</button>
+			</div>
+		</div>
+	</section>
+	<!--	=============== Subscribe section =============== -->
+	<section id="subscribe" class="subscribe">
+		<div class="container">
+			<h3>Subscribe To Us</h3>
+			<p>
+				Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			</p>
+			<form class="form-inline">
+				<div class="form-group">
+					<input type="email" class="form-control" id="email" placeholder="Your e-mail address..." required>
+				</div>
+				<div class="form-group">
+					<div class="text-center">
+						<button type="submit" class="btn btn-default btn-lg btn-block">Subscribe</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!--	=============== Blog section =============== -->
+	<section id="blog" class="blog">
+		<div class="container text-center center-block">
+			<h2>Blog</h2>
+			<p class="center-block">
+				Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				 Duis aute irure dolor in reprehenderit in voluptate velit.
+			 </p>
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/greenSmoothies.jpg" alt="smoothies fruit photo" class="img-responsive">
+						<span class="blog-date">20 nov</span>
+						<div class="blog-title">
+							<h4>Green Smoothies: Too Much of a Good Thing?</h4>
+							<p class="blog-author">
+								By Auskteez - 2 hours ago
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/thirstInnovation.jpg" alt="small bean photo" class="img-responsive">
+						<span class="blog-date">14 nov</span>
+						<div class="blog-title">
+							<h4>Growing Food and a "Thirst" for Innovation</h4>
+							<p class="blog-author">
+								By Auskteez - 3 hours ago
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/Pesticides.png" alt="pesticides photo" class="img-responsive">
+						<span class="blog-date">10 nov</span>
+						<div class="blog-title">
+							<h4>Pesticides & Food: What You Need to Know</h4>
+							<p class="blog-author">
+								By Auskteez - 6 hours ago
+							</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row" id="show-hide2">
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/greenSmoothies.jpg" alt="smoothies fruit photo" class="img-responsive">
+						<span class="blog-date">20 nov</span>
+						<div class="blog-title">
+							<h4>Green Smoothies: Too Much of a Good Thing?</h4>
+							<p class="blog-author">
+								By Auskteez - 2 hours ago
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/thirstInnovation.jpg" alt="small bean photo" class="img-responsive">
+						<span class="blog-date">14 nov</span>
+						<div class="blog-title">
+							<h4>Growing Food and a "Thirst" for Innovation</h4>
+							<p class="blog-author">
+								By Auskteez - 3 hours ago
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/Pesticides.png" alt="pesticides photo" class="img-responsive">
+						<span class="blog-date">10 nov</span>
+						<div class="blog-title">
+							<h4>Pesticides & Food: What You Need to Know</h4>
+							<p class="blog-author">
+								By Auskteez - 6 hours ago
+							</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-default btn-lg" id="btn-show-hide2">view more</button>
+		</div>
+	</section>
+	<!--	=============== Contact section =============== -->
+	<section id="contact" class="contact">
+		<div class="container text-center">
+			<h2>Contact</h2>
+			<p class="center-block">
+				For new projects, ideas, business or anything you'd like to discuss, contact with me!
+			</p>
+			<div class="row center-block">
+				<div class="col-sm-6 col-md-5 col-md-offset-1">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Your name..." required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Your adress email..." required>
+						</div>
+						<div class="form-group">
+							<input type="tel" class="form-control" placeholder="Your phone number..." required>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="11" placeholder="Your message..." required></textarea>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-default btn-lg">Send message</button>
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-6 col-md-5 col-md-offset-1 text-left">
+					<ul>
+						<li><b>address</b><br>123 City name, Street, City, Country</li>
+						<li><b>email</b><br>cahee@domain.com</li>
+						<li><b>phone</b><br>+012 345 6789</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	=============== Footer =============== -->
+	<footer>
+		<div class="container center-block text-center">
+			<div class="row">
+				<div class="col-md-4">
+					<p>&copy; 2017.06 - M.W. -- All rights reserved.</p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/logoMIN.png" alt="logo xs">
+				</div>
+				<div class="col-md-4">
+					<p>Created by M.W. </p>
+					<p>PSD made with <span style="color:red; font-weight: 700">love</span> by Auskteez</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- =============== scripts =============== -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/scripts-jquery.js"></script>
+</body>
+</html>

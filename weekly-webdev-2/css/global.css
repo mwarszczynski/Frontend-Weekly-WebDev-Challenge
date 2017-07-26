@@ -1,0 +1,29 @@
+/* general */
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+section {
+	padding: 100px 0;
+}
+
+h2 {
+	font-size: 80px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+p {
+	font-size: 15.5px;
+	line-height: 1.6;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+
+textarea {
+  resize: none;
+}

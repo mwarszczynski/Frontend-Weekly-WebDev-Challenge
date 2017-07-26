@@ -1,0 +1,61 @@
+/* scroll icon */
+#scroll {
+	position: absolute;
+	bottom: 8%;
+	left: 50%;
+	width: 24px;
+	height: 40px;
+	margin-left: -15px;
+	border: 2.8px solid #262626;
+	border-radius: 50px;
+	box-sizing: border-box;
+}
+
+
+#scroll::before {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	content: '';
+	width: 4px;
+	height: 11px;
+	margin-left: -2px;
+	background-color: #262626;
+	border-radius: 40%;
+	-webkit-animation: scroll-down 2s infinite;
+	animation: scroll-down 2s infinite;
+	box-sizing: border-box;
+}
+
+@-webkit-keyframes scroll-down {
+	0% {
+		-webkit-transform: translate(0, 0);
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	80% {
+		-webkit-transform: translate(0, 8px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes scroll-down {
+	0% {
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	80% {
+		transform: translate(0, 8px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}

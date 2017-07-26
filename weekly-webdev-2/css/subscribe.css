@@ -1,0 +1,49 @@
+/* subscribe section */
+.subscribe {
+	height: 500px;
+	background: url(../img/wallpaper02.png) no-repeat;
+	background-position: top right;
+	background-attachment: scroll;
+	background-size: cover;
+	position: relative;
+}
+
+	.subscribe h3 {
+		font-weight: bold;
+		font-size: 40px;
+		margin-top: 40px;
+	}
+
+	.subscribe p {
+		width: 50%;
+		font-weight: normal;
+		margin-top: 20px;
+	}
+
+		.subscribe .form-inline {
+			margin-top: 25px;
+		}
+
+		.subscribe #email {
+			width: 560px;
+			height: auto;
+			padding: 18.5px 15px;
+			border-radius: 0;
+			border-color: #262626;
+			color: #363636;
+		}
+
+		.subscribe input::placeholder {
+			color: #363636;
+		}
+
+		.subscribe .btn-default {
+			height: 58px;
+			width: 160px;
+			background-color: #97BA2C;
+			margin-left: 30px;
+		}
+
+		.subscribe .btn-default:hover, .subscribe .btn-default:focus {
+			background-color: #8eaf2b;
+		}
